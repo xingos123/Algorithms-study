@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms-study", "Algorithms-study\Algorithms-study.vcxproj", "{50CE0F45-129E-4D8A-879F-B44D0F92669B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串的旋转", "字符串的旋转\字符串的旋转.vcxproj", "{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{50CE0F45-129E-4D8A-879F-B44D0F92669B}.Release|x64.Build.0 = Release|x64
 		{50CE0F45-129E-4D8A-879F-B44D0F92669B}.Release|x86.ActiveCfg = Release|Win32
 		{50CE0F45-129E-4D8A-879F-B44D0F92669B}.Release|x86.Build.0 = Release|Win32
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Debug|x64.ActiveCfg = Debug|x64
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Debug|x64.Build.0 = Debug|x64
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Debug|x86.Build.0 = Debug|Win32
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x64.ActiveCfg = Release|x64
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x64.Build.0 = Release|x64
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x86.ActiveCfg = Release|Win32
+		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
