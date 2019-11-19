@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms-study", "Algorithms-study\Algorithms-study.vcxproj", "{50CE0F45-129E-4D8A-879F-B44D0F92669B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串的旋转", "字符串的旋转\字符串的旋转.vcxproj", "{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1字符串的旋转", "字符串的旋转\字符串的旋转.vcxproj", "{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2字符串的包含", "1.2字符串的包含\1.2字符串的包含.vcxproj", "{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.3字符串的全排列", "1.3字符串的全排列\1.3字符串的全排列.vcxproj", "{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x64.Build.0 = Release|x64
 		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x86.ActiveCfg = Release|Win32
 		{ECA2F842-AEC5-4E51-B66F-7B7FF915D8EB}.Release|x86.Build.0 = Release|Win32
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Debug|x64.ActiveCfg = Debug|x64
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Debug|x64.Build.0 = Debug|x64
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Debug|x86.ActiveCfg = Debug|Win32
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Debug|x86.Build.0 = Debug|Win32
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Release|x64.ActiveCfg = Release|x64
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Release|x64.Build.0 = Release|x64
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Release|x86.ActiveCfg = Release|Win32
+		{62DE988D-04B4-442B-A3A4-70CDB5AA6C66}.Release|x86.Build.0 = Release|Win32
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Debug|x64.ActiveCfg = Debug|x64
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Debug|x64.Build.0 = Debug|x64
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Debug|x86.Build.0 = Debug|Win32
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Release|x64.ActiveCfg = Release|x64
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Release|x64.Build.0 = Release|x64
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Release|x86.ActiveCfg = Release|Win32
+		{0F5FA16D-3A77-489C-9F55-9BA4FEBAF5A0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
