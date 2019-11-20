@@ -152,6 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.3字符串的全排列.cpp" />
+    <ClCompile Include="CaclAllPermutation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaclAllPermutation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

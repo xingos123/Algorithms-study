@@ -8,14 +8,10 @@ int main()
 {
 	ReverseMethods re;
 	char s[] = "student";
-	re.LeftRotateString(s, 7, 6);
-	cout << "直接旋转：" << s << endl;
+	//re.LeftRotateString(s, 7, 6);
+	cout << "三步旋转：" << re.ReverseString2(s, 'e') << endl;
 
 	char str[] = "I am a student.";
-	char str1[] = "I am ";
-	char str2[] = "a student.";
-	re.AllReverse(str1, 2, 5);
-	re.AllReverse(str2, 2, 10);
 	//re.AllReverse(str, 5, 15);
-	cout << "三步旋转：" << str2 << str1 << endl;
+	cout << "三步旋转：" << re.ReverseString3(str) << endl;
 }

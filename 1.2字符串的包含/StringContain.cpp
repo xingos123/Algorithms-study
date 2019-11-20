@@ -1,5 +1,5 @@
 #include "StringContain.h"
-
+#include <iostream>
 bool StringContain::StringContain1(string& a, string& b)
 {
 	for (int i = 0; i < b.length(); ++i)
@@ -58,14 +58,40 @@ bool StringContain::StringContain4(string& a, string& b)
 	int hash = 0;
 	for (int i = 0; i < a.length(); ++i)
 	{
-		hash |= (1 << (a[i] - 'a'));//--获取一个整数签名例如01110010
+		hash |= (1 << (a[i] - 'a'));//--获取一个整数签名例如5120255
 	}
+	//cout << hash << endl;
 	for (int j = 0; j < b.length(); ++j)
 	{
+		//cout << (1 << (b[j] - 'a')) << endl;
 		if ((hash & (1 << (b[j] - 'a'))) == 0)//--与运算判断，经过hash算后是否存在表中
 		{
 			return false;
 		}
 	}
 	return true;
+}
+
+bool StringContain::StringContain5(string& a, string& b)
+{
+	int hash1 = 0;
+	for (int i = 0; i < a.length(); ++i)
+	{
+		hash1 |= (1 << (a[i] - 'a'));
+	}
+	cout << hash1 << endl;
+	int hash2 = 0;
+	for (int j = 0; j < b.length(); ++j)
+	{
+		hash2 |= (1 << (b[j] - 'a'));
+	}
+	cout << hash2 << endl;
+	if (hash1 == hash2)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }

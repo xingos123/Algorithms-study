@@ -7,13 +7,25 @@
 int main()
 {
 	StringContain sc;
-	string a = "defabccwsgtrfgnbgherfbnhr", b = "eaz";
-	if (sc.StringContain4(a, b) == true)
+	string a = "aeg", b = "eag", c = "gea";
+	string str[] = { "aeg","aga","ewe","aa","c" };
+	for (int i = 0; i < 5; i++)
+	{
+		if (sc.StringContain5(a, str[i]))
+		{
+			cout << "包含" << endl;
+		}
+		/*while (sc.StringContain5(a, str[i]) == true)
+		{
+			cout << "包含" << endl;
+		}*/
+	}
+	/*if (sc.StringContain5(a, c) == true)
 	{
 		cout << "包含" << endl;
 	}
 	else
 	{
 		cout << "不包含" << endl;
-	}
+	}*/
 }

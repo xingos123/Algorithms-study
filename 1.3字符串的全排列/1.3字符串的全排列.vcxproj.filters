@@ -18,5 +18,13 @@
     <ClCompile Include="1.3字符串的全排列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CaclAllPermutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaclAllPermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
