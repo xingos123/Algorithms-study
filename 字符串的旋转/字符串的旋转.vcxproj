@@ -153,7 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ReverseMethods.cpp" />
-    <ClCompile Include="字符串的旋转.cpp" />
+    <ClCompile Include="1.1字符串的旋转.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseMethods.h" />

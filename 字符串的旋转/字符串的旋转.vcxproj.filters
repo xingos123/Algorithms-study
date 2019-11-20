@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="字符串的旋转.cpp">
+    <ClCompile Include="ReverseMethods.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ReverseMethods.cpp">
+    <ClCompile Include="1.1字符串的旋转.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
