@@ -55,3 +55,11 @@ bool CaclAllPermutation::CaclAllPermutation2(char* perm, int num)
 	cout << perm << endl;
 	return true;
 }
+
+void CaclAllPermutation::CaclAllPermutation5()
+{
+	char str[] = "abcdefghijklmnopqrstuvwxyz";
+	for (int i = 1; i < 27; i++)
+	{
+	}
+}

@@ -10,7 +10,7 @@ int main()
 	//char a[] = "iloveu";
 	//ca.CaclAllPermutation1(a, 0, 5);
 
-	char b[] = "12345";
+	char b[] = "11345";
 	while (ca.CaclAllPermutation2(b, 5))
 	{
 	}
