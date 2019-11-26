@@ -1,2 +1,5 @@
 ﻿  1.4字符串转化成整数.cpp
+  StrToInt.cpp
+  正在生成代码...
+D:\VS2019P\Algorithms-study\1.4字符串转化成整数\StrToInt.cpp(92,26): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
   1.4字符串转化成整数.vcxproj -> D:\VS2019P\Algorithms-study\Debug\1.4字符串转化成整数.exe

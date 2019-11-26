@@ -1,6 +1,8 @@
 #include "LongestPalindrome.h"
 #include <iostream>
 #include <algorithm>
+#include <vector>
+
 using namespace std;
 
 int LongestPalindrome::LongestPalindrome1(const char* s, int n)
@@ -42,4 +44,30 @@ int LongestPalindrome::LongestPalindrome1(const char* s, int n)
 		}
 	}
 	return max;
+}
+
+int LongestPalindrome::Manacher(char* s1, int n)
+{
+	const int MAXN = 2233;
+
+	char s2[MAXN];
+	int tot = 0, p[MAXN];
+
+	s2[tot++] = '$'; s2[tot++] = '#';
+	for (int i = 1; i <= n; i++) {
+		s2[tot++] = s1[i]; s2[tot++] = '#';
+	}
+	int mxlen = 0, mx = 0, id;
+	for (int i = 1; i < tot; i++) {
+		if (i < mx) p[i] = std::min(p[(id << 1) - i], mx - i);
+		else p[i] = 1;
+		while (s2[i - p[i]] == s2[i + p[i]]) p[i]++;
+		if (mx < i + p[i]) {
+			id = i; mx = i + p[i];
+		}
+		mxlen = std::max(mxlen, p[i] - 1);
+	}
+	cout << s2 << "\n" << p << "\n";
+	return mxlen;
+	return 0;
 }

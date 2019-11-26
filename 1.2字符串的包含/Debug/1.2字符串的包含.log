@@ -1,2 +1,18 @@
 ﻿  1.2字符串的包含.cpp
+  StringContain.cpp
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(5,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(8,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(9,9): warning C4018: “>=”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(18,30): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(20,13): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(24,10): warning C4018: “>=”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(37,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(39,11): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(45,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(47,11): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(59,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(64,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(78,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+D:\VS2019P\Algorithms-study\1.2字符串的包含\StringContain.cpp(84,20): warning C4018: “<”: 有符号/无符号不匹配
   1.2字符串的包含.vcxproj -> D:\VS2019P\Algorithms-study\Debug\1.2字符串的包含.exe

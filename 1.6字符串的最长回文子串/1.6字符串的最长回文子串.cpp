@@ -9,4 +9,6 @@ int main()
 	LongestPalindrome lp;
 	char str[] = "Pneumonoultramicroscopicsilicovolcanoconiosis";
 	cout << lp.LongestPalindrome1(str, 45) << "\n";
+	char s[] = "abaaba";
+	cout << lp.Manacher(s, 6) << "\n";
 }

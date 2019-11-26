@@ -1,6 +1,4 @@
 ﻿  1.3字符串的全排列.cpp
   CaclAllPermutation.cpp
-D:\VS2019P\Algorithms-study\1.3字符串的全排列\CaclAllPermutation.cpp(64,8): error C2143: 语法错误: 缺少“;”(在“)”的前面)
-D:\VS2019P\Algorithms-study\1.3字符串的全排列\CaclAllPermutation.cpp(65,3): error C2143: 语法错误: 缺少“;”(在“{”的前面)
   正在生成代码...
-D:\VS2019P\Algorithms-study\1.3字符串的全排列\CaclAllPermutation.cpp(65,3): error C2143: 语法错误: 缺少“)”(在“{”的前面)
+  1.3字符串的全排列.vcxproj -> D:\VS2019P\Algorithms-study\Debug\1.3字符串的全排列.exe
