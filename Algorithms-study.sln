@@ -21,6 +21,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.0常用排序算法", "2.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1寻找最小的k个数", "2.1寻找最小的k个数\2.1寻找最小的k个数.vcxproj", "{0D3B0B83-8982-48F0-A063-A29CB211F1EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2寻找和为定值的两个数", "2.2寻找和为定值的两个数\2.2寻找和为定值的两个数.vcxproj", "{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表学习", "链表学习\链表学习.vcxproj", "{7AAFB23F-8C00-4004-B30C-F509152E6FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +105,22 @@ Global
 		{0D3B0B83-8982-48F0-A063-A29CB211F1EF}.Release|x64.Build.0 = Release|x64
 		{0D3B0B83-8982-48F0-A063-A29CB211F1EF}.Release|x86.ActiveCfg = Release|Win32
 		{0D3B0B83-8982-48F0-A063-A29CB211F1EF}.Release|x86.Build.0 = Release|Win32
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Debug|x64.ActiveCfg = Debug|x64
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Debug|x64.Build.0 = Debug|x64
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Debug|x86.Build.0 = Debug|Win32
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Release|x64.ActiveCfg = Release|x64
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Release|x64.Build.0 = Release|x64
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Release|x86.ActiveCfg = Release|Win32
+		{CEE4780B-EFDC-4069-AEA9-2489F8B296A8}.Release|x86.Build.0 = Release|Win32
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Debug|x64.ActiveCfg = Debug|x64
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Debug|x64.Build.0 = Debug|x64
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Debug|x86.Build.0 = Debug|Win32
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Release|x64.ActiveCfg = Release|x64
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Release|x64.Build.0 = Release|x64
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Release|x86.ActiveCfg = Release|Win32
+		{7AAFB23F-8C00-4004-B30C-F509152E6FBF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
