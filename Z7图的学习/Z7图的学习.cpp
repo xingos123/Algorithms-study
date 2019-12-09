@@ -2,8 +2,10 @@
 //
 
 #include <iostream>
+#include <queue>
 using namespace std;
 #define MaxVnum 100
+bool visited[MaxVnum];
 typedef char VexType;
 typedef int EdgeType;
 typedef struct
@@ -168,12 +170,128 @@ void Print(ALGraph G)
 		cout << endl;
 	}
 }
+void DFS_AM(AMGraph G, int v)
+{
+	int w;
+	cout << G.Vex[v] << " ";
+	visited[v] = true;
+	for (w = 0; w < G.vexn; w++)
+	{
+		if (G.Edge[v][w] && !visited[w])
+		{
+			DFS_AM(G, w);
+		}
+	}
+}
+void DFS_Al(ALGraph G, int v)
+{
+	int w; AdjNode* p;
+	cout << G.Vex[v].data << " ";
+	visited[v] = true;
+	p = G.Vex[v].first;
+	while (p)
+	{
+		w = p->v;
+		if (!visited[w])
+		{
+			DFS_Al(G, w);
+		}
+		p = p->next;
+	}
+}
+void DFS_Al(ALGraph G)
+{
+	for (int i = 0; i < G.vexn; i++)
+	{
+		if (!visited[i])
+		{
+			DFS_Al(G, i);
+		}
+	}
+}
+void BFS_AM(AMGraph G, int v)//---邻接矩阵  广度优先
+{
+	int u, w;
+	queue<int> q;
+	cout << G.Vex[v] << " ";
+	visited[v] = true;
+	q.push(v);
+	while (!q.empty())
+	{
+		u = q.front();
+		q.pop();
+		for (w = 0; w < G.vexn; w++)
+		{
+			if (G.Edge[u][w] && !visited[w])
+			{
+				cout << G.Vex[w] << " ";
+				visited[w] = true;//---切记把访问过的标记为true
+				q.push(w);
+			}
+		}
+	}
+}
+void BFS_AL(ALGraph G, int v)//---邻接表
+{
+	int u, w;
+	AdjNode* p;
+	queue<int> q;
+	cout << G.Vex[v].data << " ";
+	visited[v] = true;
+	q.push(v);
+	while (!q.empty())
+	{
+		u = q.front();
+		q.pop();
+		p = G.Vex[u].first;
+		while (p)
+		{
+			w = p->v;
+			if (!visited[w])
+			{
+				cout << G.Vex[w].data << " ";
+				visited[w] = true;
+				q.push(w);
+			}
+			p = p->next;
+		}
+	}
+}
+void BFS_Al(ALGraph G)//---重载，查漏点
+{
+	for (int i = 0; i < G.vexn; i++)
+	{
+		if (!visited[i])
+		{
+			BFS_Al(G, i);
+		}
+	}
+}
 int main()
 {
 	// 	AMGraph G;
 	// 	CreatAMGraph(G);
 	// 	Print(G);
+
 	ALGraph G;
 	CreatALGraph(G);
 	Print(G);
+
+	int v; VexType c;
+	cout << "请输入遍历连通图的起点：\n";
+	cin >> c;
+	//v = Locatevex(G, c);
+	v = LocateV(G, c);
+	if (v != -1)
+	{
+		cout << "广度优先遍历结果：\n";
+		//DFS_AM(G, v);
+		//DFS_Al(G, v);
+		//BFS_AM(G, v);
+		BFS_AL(G, v);
+	}
+	else
+	{
+		cout << "输入起点错误，请重新输入！";
+	}
 }
